@@ -1,0 +1,180 @@
+.form {
+    border: 2px solid #0ef; 
+    border-radius: 20px;
+    width: 570px;
+    padding: 10px;
+}
+
+.forms {
+    background: rgba(5, 5, 5, 0.521);
+    border: 2px solid #0ef;
+}
+
+.forms1 {
+    width: 100%;
+    border: 2px solid #0ef;
+}
+
+.wrapper {
+    width: 750px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid #0ef;  
+}
+
+.options {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.dots {
+    width: 25px;
+}
+
+.heart, .share, .chat, .dots {
+    filter: invert(1)
+}
+
+.text {
+    color: #fff;
+}
+
+.search, .persons, .message, .settings, .plus {
+    filter: invert(1)
+    
+}
+
+.button {
+    margin-left: 20px;
+    background: transparent;
+    border: 2px solid #0ef;
+    color: #fff;
+}
+
+.button1 {
+    margin-left: 30px;
+    color: #fff;
+}
+
+.pm {
+    margin-left: 30px;
+}
+
+.arrow {
+    margin-top: -4px;
+    margin-left: 50px;
+}
+
+.button1 {
+    margin-left: 0;
+    color: #fff;
+    background: none;
+}
+
+.buttons {
+    background: #FC3DE9;
+    margin-left: 0;
+    color: #fff; 
+}
+
+.button2 {
+    color: #fff;
+    background: #50F060;
+}
+
+.button3 {
+    color: #fff;
+    background: #2521F1;
+}
+
+.button4 {
+    background: #CDF52D;
+}
+
+.button5 {
+    color: #fff;
+    background: #5277FC;
+}
+
+.button6 {
+    color: #fff;
+    background: #DFA349;
+}
+
+.button7 {
+    color: #fff;
+    background: #E91713;
+}
+
+.button8 {
+    color: #fff;
+    background: #0F9DBC;
+}
+
+.button9 {
+    color: #fff;
+    background: #BC0F2E;
+}
+
+.button10 {
+    color: #fff;
+    background: #FF3D00;
+}
+
+.button11 {
+    color: #fff;
+    background: #693781;
+}
+
+.button12 {
+    color: #fff;
+    background: #00FF85;
+}
+
+@media (max-width: 481px) {
+    .form {
+        width: 90%;
+    }
+
+    .wrapper {
+        width: 100%;
+        height: auto;
+    }
+
+    .dots{
+        margin-top: -50px;
+        margin-left: 380px;
+    }
+
+    .forms1 {
+        width: 90%;
+        border: 2px solid #0ef;
+    }
+
+    .text {
+        margin-top: 30px;
+        color: #fff;
+    }
+    
+    .button {
+        margin-right: 40px; 
+    }
+
+    .mobile{
+        margin-left: 20px;
+        
+    }
+
+    .options {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .button1 {
+        background: none;
+        margin-right: 50px;
+    }
+}
